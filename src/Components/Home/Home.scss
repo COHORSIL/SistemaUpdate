@@ -1,0 +1,23 @@
+.container__Home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+.searchh {
+  width: 240px;
+  &:hover {
+    transform: scale3d(1.05, 1.05, 1);
+    width: 350px;
+    box-shadow: inset;
+    transition: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+}
+
+.hola2{
+  size: 30px;
+
+  
+}

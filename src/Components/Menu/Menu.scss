@@ -1,0 +1,134 @@
+.princ {
+  // overflow: hidden;
+  // position: absolute;
+
+  .MenuBoton1 {
+    .MenuBoton2 {
+      background-color: aliceblue;
+      border-radius: 50%;
+      height: 25px;
+      width: 25px;
+    }
+
+    transition: transform 0.17s ease-in-out;
+    &:hover {
+      transform: scale3d(1.04, 1.04, 1);
+    }
+  }
+  .MuiPaper-root {
+    background-color: #282c34;
+  }
+
+  .colortext {
+    color: azure;
+  }
+
+  .colorIcon {
+    color: aliceblue;
+  }
+
+  .colortext2 {
+    color: rgb(100, 187, 187);
+  }
+
+  .coloricons {
+    color: azure;
+  }
+
+  .MuiButtonBase-root {
+    background-color: #ffffff25;
+  }
+
+  .bot {
+    margin-top: 100px;
+  }
+
+  .List___Container {
+    overflow: auto;
+    .List__FotoPerfil {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+
+      img {
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+        cursor: pointer;
+        border: 3px solid cornsilk;
+        transition: all 0.3s ease;
+      }
+    }
+
+    .List__Nombre {
+      text-align: center;
+      color: cornsilk;
+      transition: all 0.3s ease;
+    }
+    .List__Nombre2 {
+      text-align: center;
+      margin-bottom: 50px;
+      color: cornsilk;
+      transition: all 0.3s ease;
+    }
+
+    .List__FotoPerfil2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 50px;
+
+      img {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        cursor: pointer;
+        border: 2px solid cornsilk;
+        transition: all 0.3s ease;
+      }
+    }
+
+  //     // Estilos para ocultar la barra de desplazamiento
+  // &::-webkit-scrollbar {
+  //   display: none;
+  // }
+
+  // // Estilos para que el contenido se siga desplazando
+  // -ms-overflow-style: none;
+  // scrollbar-width: none;
+}
+  
+}
+
+.active {
+ background-color: red;
+}
+
+
+.MuiIconButton-colorSecondary {
+  color: #6bafe8;
+}
+
+
+// .custom-scroll-indicator {
+//   position: absolute;
+//   right: 5px;  /* Ajusta la posición según tus necesidades */
+//   top: 0;
+//   bottom: 0;
+//   width: 6px;  /* Ajusta el ancho según tus necesidades */
+//   background-color: #ccc;  /* Color de fondo del indicador */
+//   border-radius: 3px;  /* Ajusta el radio de borde según tus necesidades */
+//   opacity: 0.5;  /* Ajusta la opacidad según tus necesidades */
+//   transition: opacity 0.3s ease;  /* Transición suave para la opacidad */
+// }
+
+// .custom-scroll-indicator:hover {
+//   opacity: 1;  /* Opacidad completa al pasar el puntero sobre el indicador */
+// }
+
+
+
+
+
+

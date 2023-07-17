@@ -1,0 +1,246 @@
+.Principal {
+  &__select {
+    display: flex;
+    align-items: flex-end;
+    width: 300px;
+    margin-right: 15px;
+
+    &__name {
+      h4 {
+        font-size: 18px;
+      }
+    }
+
+    &__proveedor {
+      width: 200px;
+      margin-bottom: 20px;
+      margin-left: 5px;
+    }
+  }
+
+  &__Fecha {
+    display: flex;
+    align-items: flex-end;
+    width: 400px;
+    margin-right: 15px;
+
+    &__name {
+      h4 {
+        font-size: 18px;
+      }
+    }
+
+    &__proveedor {
+      width: 300px;
+      margin-bottom: 20px;
+      margin-left: 5px;
+    }
+  }
+
+  &__Factura {
+    display: flex;
+    align-items: flex-end;
+    width: 300px;
+
+    &__name {
+      h4 {
+        font-size: 18px;
+      }
+    }
+
+    &__proveedor {
+      width: 200px;
+      margin-bottom: 20px;
+      margin-left: 5px;
+    }
+  }
+}
+
+.Observacion {
+  display: flex;
+  align-items: flex-end;
+
+  &__TexFieldArea {
+    width: 300px;
+  }
+}
+
+.Entrada__Agregar {
+  // height: 450px;
+  &__Titulo {
+    text-align: center;
+
+    h4 {
+      font-size: 16px;
+      font-weight: bold;
+      padding-top: 10px;
+    }
+  }
+
+  &__Flex {
+    display: flex;
+    align-items: flex-end;
+
+    &__select {
+      display: flex;
+      align-items: flex-end;
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+
+      &__name {
+        h4 {
+          font-size: 18px;
+        }
+      }
+
+      &__producto {
+        width: 250px;
+        // margin-bottom: 20px;
+        margin-left: 5px;
+      }
+    }
+
+    &__cantidad {
+      display: flex;
+      align-items: flex-end;
+      width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+
+      &__name {
+        h4 {
+          font-size: 18px;
+        }
+      }
+
+      &__proveedor {
+        width: 200px;
+        // margin-bottom: 20px;
+        margin-left: 5px;
+      }
+    }
+
+    &__costo {
+      display: flex;
+      align-items: flex-end;
+      margin-left: auto;
+      // margin-right: auto;
+      // width: 400px;
+
+      &__name {
+        h4 {
+          font-size: 18px;
+        }
+      }
+
+      &__proveedor {
+        width: 200px;
+        margin-bottom: 20px;
+        margin-left: 5px;
+      }
+    }
+  }
+
+  &__Total {
+    margin-left: 100px;
+    .MuiInputBase-input {
+      color: black;
+    }
+  }
+
+  &__Button {
+    margin-left: 80%;
+  }
+
+  .titulo {
+    background-color: #3a9b5d;
+    border-radius: 10px;
+  }
+
+  .total {
+    position: fixed;
+    margin-left: 100px;
+    bottom: 100px;
+  }
+}
+
+.Detalle__Titulo {
+  text-align: center;
+  h4 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+}
+
+.lottieSindatos {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 100px;
+}
+
+.Paper_List {
+  .MuiPaper-root {
+    background-color: #eaeaea42;
+    border-radius: 10px;
+  }
+
+  .principal__ProductList {
+    max-width: 300px;
+
+    // transition: "transform 0.15s ease-in-out",
+    // "&:hover": { transform: "scale3d(1.05, 1.05, 1)" },
+
+    // .cardHovered {
+    //   transform: scale3d(1.05, 1.05, 1);
+    // }
+
+    transition: transform 0.15s ease-in-out;
+    &:hover {
+      transform: scale3d(1.05, 1.05, 1);
+    }
+
+    .MuiButtonBase-root {
+      background-color: #f8f8f8;
+    }
+
+    &__media {
+      height: 140;
+    }
+  }
+}
+
+.Detalle__Factura {
+  padding: 2rem;
+  background: white;
+  border-bottom: 1px solid #620b0b;
+  color: black;
+  margin: 5px;
+}
+
+.CardTotal25 {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  // position: fixed;
+  // margin-left: 100px;
+  // bottom: 100px;
+}
+
+.CardTotal2 {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.boton-Guardar {
+  margin: 20px;
+}
+
+.titulo20 {
+  background-color: #3a749b;
+  border-radius: 10px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Loading...</title>
+  <style>
+    body {
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    #cohrsil-text {
+      margin-top: 10px;
+      font-size: 24px;
+      color: black;
+      font-weight: bold; /* Hace que el texto sea más grueso */
+    }
+
+    #cohrsil-text span {
+      font-size: 18px; /* Tamaño de fuente más pequeño para las letras "hor" */
+    }
+
+    #lottie-container {
+      width: 350px;
+      height: 250px;
+      overflow: hidden; /* Oculta cualquier contenido que exceda el tamaño del contenedor */
+    }
+
+    /* Estilos para el video de fondo */
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Ajusta el tamaño del video para cubrir el contenedor */
+
+    }
+
+  </style>
+</head>
+<body>
+  <div id="lottie-container">
+    <video autoplay loop muted>
+      <source src="./97952-loading-animation-blue.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div id="cohrsil-text">
+    CO<span>HOR</span>SIL
+  </div>
+</body>
+</html>

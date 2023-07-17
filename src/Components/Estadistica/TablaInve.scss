@@ -1,0 +1,34 @@
+.Modal-Editar-Producto {
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  height: 300px;
+
+  &__Paper {
+    margin: auto;
+    width: 750px;
+    height: 550px;
+    padding: 10px 25px;
+    text-align: center;
+    .MuiInputBase-root.Mui-disabled {
+      color: rgb(0, 22, 148);
+    }
+  }
+  &__Selec1 {
+    margin-left: 20px;
+    width: 200px;
+  }
+
+  &__Selec2 {
+    margin-left: 40px;
+  }
+}
+
+.imag {
+  border: 2px solid rgb(19, 19, 19);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 104px;
+}

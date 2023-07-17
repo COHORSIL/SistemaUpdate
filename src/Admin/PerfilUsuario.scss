@@ -1,0 +1,16 @@
+.conatiner_Perfil {
+  display: flex;
+  align-items: center;
+  .avatar {
+    display: table;
+    margin: 0 !important;
+    border: 2px solid grey;
+    border-style: dashed;
+    border-radius: 100px;
+    padding: 10px;
+  }
+
+  h1 {
+    margin-left: 25px;
+  }
+}
